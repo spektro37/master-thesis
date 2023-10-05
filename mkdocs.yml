@@ -1,1 +1,15 @@
-site_name: My Docs
+site_name: ВКР
+
+# Page tree
+nav:
+  - Home: index.md
+  - ВКР:
+    - Тема: content/a1.md
+    - Актуальность: content/a2.md
+
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
